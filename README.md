@@ -33,11 +33,8 @@ Project_Structure:
         - RecipeSummary.js: Screen showing a summary of the selected recipe, including ingredients and sub-ingredients.
       - components/
         - IngredientList.js: Component to render ingredients for each recipe with CRUD options.
-      - assets/: Assets like images, fonts, etc.
-      - styles/
-        - globalStyles.js: Optional file for reusable styling (colors, fonts, margins, etc.)
     - package.json: Project dependencies and scripts.
-    - README.md: Project documentation.
+    
 
 Getting_Started:
   Step_1:
@@ -60,6 +57,7 @@ Running_the_App:
   Android:
     - Ensure you have the Expo Go app installed on your Android device from the Google Play Store.
     - Open the Expo Go app and scan the QR code displayed in the terminal or your browser.
+    
   iOS:
     - Ensure you have the Expo Go app installed on your iOS device from the App Store.
     - Open the Expo Go app and scan the QR code displayed in the terminal or your browser.
