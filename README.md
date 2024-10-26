@@ -40,7 +40,7 @@ Getting_Started:
   - Step 1:
       Description: Clone the repository.
       Commands:
-        - git clone https://github.com/yourusername/recipe-organizer.git
+        - git clone https:https://github.com/W1-Pratik-83797/Toolstr_Assign.git
         - cd recipe-organizer
   - Step 2:
       Description: Install dependencies.
@@ -63,3 +63,12 @@ Running_the_App:
     - Open the Expo Go app and scan the QR code displayed in the terminal or your browser.
     - Alternatively, you can run the app in an iOS simulator if you have Xcode installed.
 
+
+Alternative_APK_Installation:
+  Description: |
+    If you prefer, you can install the app directly on your Android device using the APK file.
+  Steps:
+    - Download the APK file (universal.apk) from the a shared link.
+    	(https://drive.google.com/file/d/17Pt88bPM5JNE9EQ4k0iuQBYkHV6HheYY/view?usp=sharing)
+    - Ensure your device allows installations from unknown sources (Settings > Security > Unknown Sources).
+    - Open the APK file on your device to install the app directly.
