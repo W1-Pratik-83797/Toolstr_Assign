@@ -22,7 +22,7 @@ Requirements:
     - For running the app on Android or iOS devices respectively.
 
 Project_Structure:
-  - project-root/
+  project-root/
     - App.js: Main entry point with Navigation and Theme setup.
     - src/
       - context/
@@ -33,26 +33,28 @@ Project_Structure:
         - RecipeSummary.js: Screen showing a summary of the selected recipe, including ingredients and sub-ingredients.
       - components/
         - IngredientList.js: Component to render ingredients for each recipe with CRUD options.
+      - assets/: Assets like images, fonts, etc.
+      - styles/
+        - globalStyles.js: Optional file for reusable styling (colors, fonts, margins, etc.)
     - package.json: Project dependencies and scripts.
     - README.md: Project documentation.
 
 Getting_Started:
-  - Step 1:
-      Description: Clone the repository.
-      Commands:
-        - git clone https:https://github.com/W1-Pratik-83797/Toolstr_Assign.git
-        - cd recipe-organizer
-  - Step 2:
-      Description: Install dependencies.
-      Commands:
-        - npm install
-  - Step 3:
-      Description: Start the development server.
-      Commands:
-        - npm start
-      Notes: |
-        After running `npm start`, the Expo development server will launch. You will see a QR code in the terminal and your web browser.
-        You can scan this QR code with the Expo Go app on your mobile device to open the application directly. Alternatively, you can choose to run the app in an Android emulator or iOS simulator, depending on your development environment.
+  Step_1:
+    Description: Clone the repository.
+    Commands:
+      - git clone https://github.com/W1-Pratik-83797/Toolstr_Assign.git
+      - cd recipe-organizer
+  Step_2:
+    Description: Install dependencies.
+    Commands:
+      - npm install
+  Step_3:
+    Description: Start the development server.
+    Commands:
+      - npm start
+    Notes: |
+      After running `npm start`, the Expo development server will launch. You will see a QR code in the terminal and your web browser. You can scan this QR code with the Expo Go app on your mobile device to open the application directly. Alternatively, you can choose to run the app in an Android emulator or iOS simulator, depending on your development environment.
 
 Running_the_App:
   Android:
@@ -63,12 +65,11 @@ Running_the_App:
     - Open the Expo Go app and scan the QR code displayed in the terminal or your browser.
     - Alternatively, you can run the app in an iOS simulator if you have Xcode installed.
 
-
 Alternative_APK_Installation:
   Description: |
     If you prefer, you can install the app directly on your Android device using the APK file.
   Steps:
-    - Download the APK file (universal.apk) from the a shared link.
-    	(https://drive.google.com/file/d/17Pt88bPM5JNE9EQ4k0iuQBYkHV6HheYY/view?usp=sharing)
+    - Download the APK file (universal.apk) from a shared link.(https://drive.google.com/file/d/17Pt88bPM5JNE9EQ4k0iuQBYkHV6HheYY/view?usp=sharing)
     - Ensure your device allows installations from unknown sources (Settings > Security > Unknown Sources).
     - Open the APK file on your device to install the app directly.
+
